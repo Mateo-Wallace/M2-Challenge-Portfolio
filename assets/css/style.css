@@ -1,0 +1,66 @@
+/* ############################################################### */
+/* Universal Selectors */
+
+:root {
+    /* Color Theme */
+    --primary: #455877;
+    --secondary: #92ccce;
+    --terciary: #31343c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ###################################################### */
+/* Element Selectors */
+
+body {
+    Font-family: Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex start;
+    background-color: #eeeef7;
+}
+
+header {
+    padding: 8px;
+    padding-left: 0px;
+    background: var(--terciary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+/* ######################################################### */
+/* Class Selectors */
+
+/* Blue Subtitles*/
+.blueBox {
+    margin: 3px;
+    padding: 10px;
+    border: 5px solid var(--secondary);
+    border-radius: 5px;
+    background-color: var(--secondary);
+    color: var(--terciary);
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* Left screen edge in header */
+div.title {
+    padding-left: 5%;
+    margin-left: 0px;
+}
+
+/* ####################################################### */
+/* ID Selectors */
