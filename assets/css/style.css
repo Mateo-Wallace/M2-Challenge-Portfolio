@@ -17,12 +17,16 @@
 
 body {
     Font-family: Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex start;
     background-color: #eeeef7;
+}
+
+header {
+    padding: 8px;
+    padding-left: 0px;
+    background: var(--terciary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 section {
@@ -55,15 +59,6 @@ article {
     margin: 30px;
 }
 
-header {
-    padding: 8px;
-    padding-left: 0px;
-    background: var(--terciary);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 h1 {
     font-size: 40px;
     font-weight: bolder;
@@ -86,8 +81,38 @@ nav {
     justify-content: space-around;
 }
 
+p {
+    margin: 7px;
+    color: var(--primary);
+    font-size: large;
+    font-weight: 400;
+}
+
 /* ######################################################### */
 /* Class Selectors */
+
+/* sizes box around work images and adds border */
+.portfolio {
+    position: relative;
+    width: 47%;
+    height: 100px;
+    border: 5px solid var(--secondary);
+    margin: 10px;
+}
+
+/* sizes larger first display */
+div.mm {
+    height: 200px;
+    width: 100%;
+}
+
+/* flexbox around work images */
+.flexwork {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 /* Blue Subtitles*/
 .blueBox {
@@ -98,7 +123,6 @@ nav {
     background-color: var(--secondary);
     color: var(--terciary);
     white-space: nowrap;
-
     display: flex;
     flex-direction: row;
 }
@@ -189,6 +213,19 @@ figcaption.br {
     right: 2%;
     font-size: 27px;
     font-weight: 500;
+}
+
+/* positions caption on large work image */
+figcaption.ml {
+    left: -5px;
+    top: 100px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* positions caption on work images */
+figcaption.mml {
+    top: 28px;
 }
 
 /* ####################################################### */
