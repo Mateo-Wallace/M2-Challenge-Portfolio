@@ -25,6 +25,22 @@ body {
     background-color: #eeeef7;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+aside {
+    width: 10%;
+    display: flex;
+    justify-content: right;
+}
+
+article {
+    width: 80%
+}
+
 header {
     padding: 8px;
     padding-left: 0px;
