@@ -20,6 +20,19 @@ body {
     background-color: #eeeef7;
 }
 
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight:625;
+    text-align: right;
+    color: var(--primary);
+}
+
 header {
     padding: 8px;
     padding-left: 0px;
@@ -57,19 +70,6 @@ aside::after {
 article {
     width: 80%;
     margin: 30px;
-}
-
-h1 {
-    font-size: 40px;
-    font-weight: bolder;
-    line-height: 50px;
-}
-
-h2 {
-    font-size: 30px;
-    font-weight:625;
-    text-align: right;
-    color: var(--primary);
 }
 
 nav {
