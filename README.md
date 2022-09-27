@@ -40,7 +40,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Link
 
-[Mateo Wallace, Web Dev Portfolio](https://link-url-here.org)
+Click Here: [Mateo Wallace, Web Dev Portfolio](https://mateo-wallace.github.io/M2-Challenge-Portfolio/)
 
 ## Screenshot
 
